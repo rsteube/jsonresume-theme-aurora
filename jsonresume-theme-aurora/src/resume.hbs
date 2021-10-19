@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>{{#basics}}{{name}}{{/basics}} - Resume</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+  <meta name="description" content="{{#basics}}{{summary}}{{/basics}}">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- in your header -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="A4 {{themeSelector}}">
+  {{> side-menu}}
+  <div id="resume">
+    <div class="sheet intro-page">
+      {{> intro-page}}
+    </div>
+    <div class="sheet project-page">
+      {{> project-page}}
+    </div>
+  </div>
+  <button onclick="document.title='{{fileName basics.name}}'; window.print(); return false;" class="float-btn">
+    <i data-feather="download"></i>
+  </button>
+  <button class="sidebar-toggle">
+    <i data-feather="menu"></i>
+  </button>
+
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<section class="work-experience">
+  <h3 class="section-header">Work Experience<span class="sub-title">Total Experience: {{totalWorkExp '2014-10-01'}}</span></h3>
+  <ul class="experience-list">
+    {{#each work}}
+    <li class="experience-item">
+      <p class="title">{{position}}</p>
+       <div class="detail-row">
+        <a class="company" href={{url}}><strong>{{company}}</strong></a>
+        <span class="year"><strong>{{dateFormat startDate 'MMM yyyy'}} - {{#if endDate}}{{dateFormat endDate 'MMM yyyy'}}{{/if}}{{#unless endDate}}present{{/unless}}</strong></span>
+      </div>
+      <ul class="description">
+        {{#each highlights}}
+        <li>
+          {{this}}
+        </li>
+        {{/each}}
+      </ul>
+    </li>
+    {{/each}}
+  </ul>
+</section>

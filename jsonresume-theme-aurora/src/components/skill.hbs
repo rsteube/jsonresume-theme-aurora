@@ -1,0 +1,11 @@
+<section class="skill">
+    <h3 class="section-header">Skills</h3>
+    <ul class="skill-category-list">
+        {{#each (skillCategory skills) as | category |}}
+        <li class="skill-category-item">
+            <h4 class="skill-category-title"># {{category}}</h4>
+            {{> skill-list skills=../skills category=category}}
+        </li>
+        {{/each}}
+    </ul>
+</section>

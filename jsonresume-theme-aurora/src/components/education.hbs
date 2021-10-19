@@ -1,0 +1,12 @@
+<section class="education">
+  <h3 class="section-header">Education</h3>
+  <ul class="education-list">
+    {{#each education}}
+    <li class="education-item">
+      <h4 class="title">{{studyType}} {{area}}</h4>
+      <p class="institution">{{institution}}</p>
+      <p class="duration"><span>{{dateFormat startDate 'yyyy'}}</span> - <span>{{dateFormat endDate 'yyyy'}}</span></p>
+    </li>
+    {{/each}}
+  </ul>
+</section>

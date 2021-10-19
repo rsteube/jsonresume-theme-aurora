@@ -1,0 +1,11 @@
+.intro-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 0;
+  grid-template-areas:
+    "header"
+    "main";
+}
+header { grid-area: header; }
+div.intro { grid-area: main; }

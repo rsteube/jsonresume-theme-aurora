@@ -1,0 +1,25 @@
+section.awards {
+  // flex-grow: 1;
+  // display: flex;
+  // flex-direction: column;
+  
+  ul {
+    margin: $size-10 0;
+    // display: flex;
+    // flex-grow: 1;
+    // flex-direction: column;
+    // justify-content: space-between;
+    list-style-type: "-  ";
+    padding-left: $size-10;
+    li {
+      text-align: justify;
+      &:before, &::marker {
+        color:var(--highlight-color);
+      }
+      margin: $size-10*0.5 0;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  },
+  "basics": {
+    "name": "John Doe",
+    "label": "Full Stack Developer",
+    "picture": "",
+    "email": "john@gmail.com",
+    "phone": "(912) 555-4321",
+    "website": "https://johndoe.com",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "url": "https://www.linkedin.com/in/john/",
+        "username": "john"
+      },
+      {
+        "network": "github",
+        "url": "https://github.com/john",
+        "username": "john"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Some Corp",
+      "position": "Technologist",
+      "startDate": "2016-01-01",
+      "summary": "",
+      "website": "https://localhost",
+      "highlights": [
+        "Did a",
+        "Did b",
+        "Did c",
+        "Did e"
+      ]
+    },
+    {
+      "company": "Some Corp",
+      "position": "Technologist",
+      "startDate": "2014-01-01",
+      "endDate": "2015-12-30",
+      "summary": "",
+      "website": "https://localhost",
+      "highlights": [
+        "Did a",
+        "Did b",
+        "Did c",
+        "Did e"
+      ]
+    },
+    {
+      "company": "Some Corp",
+      "position": "Technologist",
+      "startDate": "2012-01-01",
+      "endDate": "2013-12-30",
+      "summary": "",
+      "website": "https://localhost",
+      "highlights": [
+        "Did a",
+        "Did b",
+        "Did c",
+        "Did e"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "area": "Computer Science & Engineering",
+      "endDate": "2014-06-30",
+      "gpa": "50.00%",
+      "institution": "University of Somewhat",
+      "startDate": "2010-01-01",
+      "studyType": "Tech"
+    }
+  ],
+  "awards": [
+    {
+      "awarder": "Awarder",
+      "date": "2015-01-01",
+      "summary": "awarded something",
+      "title": "Winner"
+    },
+    {
+      "awarder": "Awarder",
+      "date": "2015-01-01",
+      "summary": "awarded something",
+      "title": "Winner"
+    },
+    {
+      "awarder": "Awarder",
+      "date": "2015-01-01",
+      "summary": "awarded something",
+      "title": "Winner"
+    }
+  ],
+  "certificates": [
+    {
+      "issuer": "Microsoft",
+      "certId": "xxx",
+      "url": "https://localhost",
+      "name": "Expert",
+      "date": "2013-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "icon": "devicon-java-plain",
+      "level": "expert"
+    },
+    {
+      "name": "Javascript",
+      "category": "Programming Languages",
+      "icon": "devicon-javascript-plain",
+      "level": "advanced"
+    },
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "icon": "devicon-python-plain",
+      "level": "basic"
+    },
+    {
+      "name": "Go",
+      "category": "Programming Languages",
+      "icon": "devicon-go-plain",
+      "level": "basic"
+    },
+    {
+      "name": "Spring",
+      "category": "Backend technologies",
+      "icon": "devicon-spring-plain",
+      "level": "intermediate"
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend technologies",
+      "icon": "devicon-nodejs-plain",
+      "level": "intermediate"
+    },
+    {
+      "name": "Express.js",
+      "category": "Backend technologies",
+      "icon": "devicon-express-original",
+      "level": "intermediate"
+    },
+    {
+      "name": "HTML5",
+      "category": "Frontend technologies",
+      "icon": "devicon-html5-plain",
+      "level": "expert"
+    },
+    {
+      "name": "CSS3",
+      "category": "Frontend technologies",
+      "icon": "devicon-css3-plain",
+      "level": "expert"
+    },
+    {
+      "name": "JQuery",
+      "category": "Frontend technologies",
+      "icon": "devicon-jquery-plain",
+      "level": "advanced"
+    },
+    {
+      "name": "Angular",
+      "category": "Frontend technologies",
+      "icon": "devicon-angularjs-plain",
+      "level": "advanced"
+    },
+    {
+      "name": "React",
+      "category": "Frontend technologies",
+      "icon": "devicon-react-plain",
+      "level": "intermediate"
+    },
+    {
+      "name": "Flutter",
+      "category": "Frontend technologies",
+      "icon": "devicon-flutter-plain",
+      "level": "basic"
+    },
+    {
+      "name": "PostgreSql",
+      "category": "Database",
+      "icon": "devicon-postgresql-plain",
+      "level": "advanced"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Database",
+      "icon": "devicon-mongodb-plain",
+      "level": "advanced"
+    },
+    {
+      "name": "Redis",
+      "category": "Database",
+      "icon": "devicon-redis-plain",
+      "level": "basic"
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud & Platforms",
+      "icon": "devicon-amazonwebservices-plain",
+      "level": "advanced"
+    },
+    {
+      "name": "Digital Ocean",
+      "category": "Cloud & Platforms",
+      "icon": "devicon-digitalocean-plain",
+      "level": "basic"
+    },
+    {
+      "name": "Heroku",
+      "category": "Cloud & Platforms",
+      "icon": "devicon-heroku-plain",
+      "level": "basic"
+    },
+    {
+      "name": "Docker",
+      "category": "Tools & Technologies",
+      "icon": "devicon-docker-plain",
+      "level": "intermediate"
+    },
+    {
+      "name": "GraphQL",
+      "category": "Tools & Technologies",
+      "icon": "devicon-graphql-plain",
+      "level": "basic"
+    },
+    {
+      "name": "Gradle",
+      "category": "Tools & Technologies",
+      "icon": "devicon-gradle-plain",
+      "level": "intermediate"
+    },
+    {
+      "name": "Webpack",
+      "category": "Tools & Technologies",
+      "icon": "devicon-webpack-plain",
+      "level": "basic"
+    },
+    {
+      "name": "Typescript",
+      "category": "Tools & Technologies",
+      "icon": "devicon-typescript-plain",
+      "level": "intermediate"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Podcasts"
+    },
+    {
+      "name": "Competitive programming"
+    },
+    {
+      "name": "Listening to music"
+    },
+    {
+      "name": "Movies & Shows"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Some software",
+      "description": "some description",
+      "keywords": [
+        "Angular",
+        "Ionic",
+        "IBM Bluemix",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+        "Google Maps"
+      ],
+      "website": "https://localhost",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "type": "Hackathon Project"
+    }
+  ]
+}
