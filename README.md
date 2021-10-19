@@ -8,4 +8,4 @@ edit `resume/resume.json`
 ```sh
 docker-compose up
 ```
-open [locahost:8080](http://localhost:8080)
+open [localhost:8080](http://localhost:8080)
