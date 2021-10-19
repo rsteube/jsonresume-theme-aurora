@@ -15,4 +15,17 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)  
+    - name: Login to Github Packages
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GHCR_PAT }}
+        
+    - name: Build image and push to Docker Hub and GitHub Container Registry
+      uses: docker/build-push-action@v2
+      with: 
+        context: .
+        tags: ghcr.io/rsteube/jsonresume-theme-aurora-docker:latest
+        push: ${{ github.ref == 'refs/heads/main' }}
