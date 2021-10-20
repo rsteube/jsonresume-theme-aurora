@@ -21,4 +21,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: rsteube/jsonresume-theme-aurora-docker:latest
+        tags: ghcr.io/rsteube/jsonresume-theme-aurora-docker:latest
