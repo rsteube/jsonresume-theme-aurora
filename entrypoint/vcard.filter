@@ -2,7 +2,9 @@
 VERSION:4.0
 N:\(.basics.name | split(" ") | last);\(.basics.name | split(" ") | .[0:-1] | join(" "))
 FN:\(.basics.name)
+URL:\(.basics.website)
 ROLE:\(.basics.label)
 ADR;TYPE=home;LABEL=\"\(.basics.location.address)\\n\(.basics.location.postalCode) \(.basics.location.city)\\n\(.basics.location.countryCode)\":;;\(.basics.location.address);\(.basics.location.city);;\(.basics.location.postalCode);\(.basics.location.countryCode)
 EMAIL:\(.basics.email)
+TEL;TYPE=home,voice;VALUE=uri:tel:\(.basics.phone)
 END:VCARD"
